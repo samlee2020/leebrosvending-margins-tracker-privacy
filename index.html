@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Margins Tracker</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 740px;
+      margin: 60px auto;
+      padding: 0 24px 80px;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    h1 { font-size: 2rem; margin-bottom: 4px; }
+    h2 { font-size: 1.15rem; margin-top: 36px; margin-bottom: 8px; }
+    p, li { font-size: 0.97rem; color: #333; }
+    ul { padding-left: 20px; }
+    .meta { color: #888; font-size: 0.88rem; margin-bottom: 40px; }
+    a { color: #007aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr { border: none; border-top: 1px solid #e5e5e5; margin: 40px 0; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Margins Tracker &nbsp;·&nbsp; LeeBros Vending &nbsp;·&nbsp; Last updated: March 21, 2026</p>
+
+  <p>
+    This Privacy Policy describes how the Margins Tracker iOS app ("the App", "we", "our") handles
+    your information. We are committed to protecting your privacy. The App is designed to keep your
+    business data on your own devices and your private iCloud account — we do not operate servers,
+    collect analytics, or sell any data.
+  </p>
+
+  <h2>1. Information We Collect</h2>
+  <p>The App collects only the minimum information needed to function:</p>
+  <ul>
+    <li>
+      <strong>Inventory data you enter</strong> — item names, costs, prices, locations, and margin
+      calculations. This data is stored locally on your device using SQLite and synced privately
+      to your own iCloud account via CloudKit. It is never accessible to us or any third party.
+    </li>
+    <li>
+      <strong>Location (optional, one-time)</strong> — during onboarding, the App may request your
+      device location solely to suggest a local sales tax rate. Your location is used only in that
+      moment to look up a state tax rate and is never stored, logged, or transmitted to any server.
+      You can skip this step or deny location access with no impact on app functionality.
+    </li>
+    <li>
+      <strong>App settings</strong> — tax rates, margin multipliers, and onboarding state are saved
+      locally on your device using iOS UserDefaults. This data never leaves your device except as
+      part of a standard iCloud device backup, which is controlled entirely by your Apple account
+      settings.
+    </li>
+  </ul>
+
+  <h2>2. How Your Data Is Stored</h2>
+  <ul>
+    <li>
+      <strong>On-device</strong> — all inventory entries are stored in a local SQLite database in
+      the app's private Application Support directory, accessible only to the App.
+    </li>
+    <li>
+      <strong>iCloud / CloudKit</strong> — inventory data syncs to your private CloudKit container
+      (<code>iCloud.com.leebrosvending.InventoryMargins</code>). This data is stored in your personal
+      iCloud account and is governed by Apple's iCloud Terms of Service and Privacy Policy. We have
+      no access to your CloudKit data.
+    </li>
+  </ul>
+
+  <h2>3. Information We Do Not Collect</h2>
+  <ul>
+    <li>We do not collect analytics, crash reports, or usage data.</li>
+    <li>We do not use advertising SDKs or track you across apps or websites.</li>
+    <li>We do not collect your name, email address, or any account information.</li>
+    <li>We do not sell, rent, or share your data with any third party.</li>
+  </ul>
+
+  <h2>4. Third-Party Services</h2>
+  <p>
+    The App uses <strong>Apple CloudKit</strong> (Apple Inc.) for private data sync across your
+    own devices. Apple's privacy practices are described in the
+    <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>.
+    No other third-party services, SDKs, or APIs are used.
+  </p>
+
+  <h2>5. Children's Privacy</h2>
+  <p>
+    The App is not directed at children under 13 and does not knowingly collect any personal
+    information from children.
+  </p>
+
+  <h2>6. Changes to This Policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. Any changes will be reflected on this
+    page with an updated date. Continued use of the App after changes constitutes acceptance of
+    the updated policy.
+  </p>
+
+  <h2>7. Contact</h2>
+  <p>
+    If you have any questions about this Privacy Policy, you can contact us at:<br />
+    <strong>LeeBros Vending</strong><br />
+    <a href="mailto:leebrosvending@gmail.com">leebrosvending@gmail.com</a>
+  </p>
+
+  <hr />
+  <p style="font-size:0.82rem; color:#aaa;">
+    &copy; 2026 LeeBros Vending. All rights reserved.
+  </p>
+
+</body>
+</html>
